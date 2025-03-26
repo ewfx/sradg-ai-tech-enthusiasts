@@ -36,9 +36,25 @@ Briefly outline the technologies, frameworks, and tools used in development.
 Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏃 How to Run
+# Smarter Network Reconciliation and Anomaly Detection using Gen AI
+
+# This project aims to automate the reconciliation of network device configurations and detect anomalies in network logs using Generative AI.
+
+# **Project Overview:**
+
+# 1.  **Data Preprocessing:** Cleans and formats raw network configuration and log data.
+# 2.  **Configuration Reconciliation:** Uses Gen AI to generate embeddings of network configurations, enabling comparison and identification of differences.
+# 3.  **Log Anomaly Detection:** Employs Gen AI to learn normal log patterns and detect deviations indicative of anomalies.
+
+# **Usage:**
+
+# 1.  Install dependencies: `pip install -r requirements.txt`
+# 2.  Place raw network configuration and log files in the `data/raw` directory.
+# 3.  Run the main script: `python src/main.py`
+# 4.  Results are stored in `data/processed`.
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/sradg-ai-tech-enthusiasts.git
    ```
 2. Install dependencies  
    ```sh
@@ -56,5 +72,5 @@ Describe the major technical or non-technical challenges your team encountered.
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team
-- **Mahesh Kolisetti** - https://github.com/ewfx/sradg-ai-tech-enthusiasts(#) | [LinkedIn](#)
+- **Mahesh Kolisetti** - [mahesh1koli](#) | [LinkedIn](#)
 - **Teammate 2** - [GitHub](#) | [LinkedIn](#)
